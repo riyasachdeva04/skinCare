@@ -1,0 +1,385 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day"],
+      "responses": ["Hey there! Welcome to GlowiCare skincare. How can I assist you today?", "Hello! Thanks for visiting GlowiCare. What can I do for you?", "Hi there! How can I help you with your skincare needs?", "Hello, lovely! Welcome to GlowiCare. How can I assist you today?"]
+    },
+    {
+      "tag": "my name",
+      "patterns": ["Tell your name", "What is your name", "Who are you", "Tell me about yourself"],
+      "responses": ["I'm SkinBot, your virtual skincare assistant. How can I assist you today?", "I go by the name SkinBot, here to help you with all things skincare!", "Call me SkinBot! I'm here to make your skincare journey fabulous."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later! If you have more questions, feel free to ask.", "Have a wonderful day! Don't hesitate to return."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": ["Which items do you have?", "What kinds of items are there?", "What do you sell?"],
+      "responses": ["Explore our range of skincare items, including cleansers, moisturizers, serums, and more.", "We offer a variety of skincare products such as the Radiant Cleansing Foam, Hydrating Silk Moisturizer, and Age-Defying Serum. Take a look!", "Discover our skincare collection, featuring products tailored to enhance your beauty routine like the Illuminating Toner and Rejuvenating Night Cream."]
+    },
+    {
+      "tag": "product_info",
+      "patterns": ["Tell me about Radiant Cleansing Foam", "What's in Hydrating Silk Moisturizer", "Details of Age-Defying Serum"],
+      "responses": [
+        "Radiant Cleansing Foam is a luxurious cleanser crafted with natural ingredients like chamomile and green tea extract, perfect for cleansing and refreshing your skin.",
+        "Hydrating Silk Moisturizer is a lightweight moisturizer formulated with silk peptides and vitamin E, designed to nourish and hydrate your skin throughout the day.",
+        "Age-Defying Serum is our best-selling serum, enriched with retinol and collagen-boosting peptides to reduce the appearance of fine lines and wrinkles."
+      ]
+    },
+    {
+      "tag": "routine",
+      "patterns": ["What's the ideal skincare routine?", "How to use your products?", "Skincare routine advice"],
+      "responses": [
+        "Start with Radiant Cleansing Foam, followed by the Illuminating Toner. Apply Age-Defying Serum for targeted treatment and finish with Hydrating Silk Moisturizer for a complete routine.",
+        "For a basic routine, cleanse with the Radiant Cleansing Foam, tone with the Illuminating Toner, and moisturize with Hydrating Silk Moisturizer daily. Integrate Age-Defying Serum and Rejuvenating Night Cream as needed for specific skin concerns.",
+        "Customize your routine based on your skin type. Our experts recommend a daily regimen of cleansing, toning, and moisturizing for healthy and glowing skin."
+      ]
+    },
+    {
+      "tag": "skin_types",
+      "patterns": ["What products are best for oily skin?", "Recommendations for dry skin", "Skincare for sensitive skin"],
+      "responses": [
+        "For oily skin, we recommend our oil-free Radiant Cleansing Foam and a lightweight Hydrating Gel Moisturizer. Try our Mattifying Serum for a shine-free finish.",
+        "Combat dryness with our hydrating Silk Mask and rich Hydrating Silk Moisturizer. Our serum with hyaluronic acid is a game-changer for dry skin.",
+        "If you have sensitive skin, opt for our Gentle Cleansing Milk and hypoallergenic Soothing Moisturizer. Our Calming Mask is perfect for sensitive skin types."
+      ]
+    },
+    {
+      "tag": "ingredients",
+      "patterns": ["What are the key ingredients in your products?", "Tell me about natural ingredients", "Are your products organic?"],
+      "responses": [
+        "Our products feature key ingredients such as chamomile, green tea extract, silk peptides, and vitamin E, carefully selected for their nourishing and soothing properties.",
+        "Embrace the power of natural ingredients in our skincare line. From aloe vera to botanical extracts, our products are designed to enhance your skin's natural radiance.",
+        "While our products contain high-quality natural ingredients, they are not certified organic. However, we prioritize sustainability and ethical sourcing in our formulations."
+      ]
+    },
+    {
+      "tag": "prices",
+      "patterns": ["How much does Radiant Cleansing Foam cost?", "What is the price of Age-Defying Serum?", "Tell me about your product pricing"],
+      "responses": [
+        "Radiant Cleansing Foam is priced at $24.99.",
+        "Age-Defying Serum is available for $49.99.",
+        "Explore our product range with prices ranging from $19.99 to $59.99. We offer quality skincare at affordable prices."
+      ]
+    },
+    {
+      "tag": "discounts",
+      "patterns": ["Are there any discounts available?", "Tell me about promotions", "How can I get a discount?"],
+      "responses": [
+        "Stay tuned for our seasonal promotions and exclusive discounts. Follow us on social media for the latest updates!",
+        "Sign up for our newsletter to receive exclusive discounts and be the first to know about our special promotions.",
+        "Enjoy a 10% discount on your first purchase! Use code NEWGLOW at checkout. Terms and conditions apply."
+      ]
+    },
+    {
+      "tag": "availability",
+      "patterns": ["Is Radiant Cleansing Foam in stock?", "Are your products available online?", "Where can I buy your products?"],
+      "responses": [
+        "Yes, Radiant Cleansing Foam is currently in stock and available for purchase.",
+        "Our products are available for purchase online through our official website. Experience the convenience of shopping from the comfort of your home.",
+        "Find our skincare products at select retailers and on our official website. Experience the joy of radiant and healthy skin with GlowiCare."
+      ]
+    },
+    {
+      "tag": "shipping",
+      "patterns": ["How long does shipping take?", "Tell me about delivery times", "What's the shipping policy?"],
+      "responses": [
+        "Our standard shipping takes 2-4 business days. Expedited shipping options are also available for faster delivery.",
+        "Experience fast and reliable shipping with delivery times ranging from 2 to 4 business days. Track your order for real-time updates.",
+        "Our shipping policy ensures that you receive your order promptly. Standard shipping typically takes 2-4 business days."
+      ]
+    },
+    {
+      "tag": "customer_care",
+      "patterns": ["How can I contact customer support?", "Tell me about your customer service", "Need assistance with my order"],
+      "responses": [
+        "For customer support, please email support@glowicare.com or call our toll-free number at 1-800-GLOW-HELP. Our team is here to assist you.",
+        "Our dedicated customer service team is available to assist you. Reach out to support@glowicare.com for prompt assistance.",
+        "If you need assistance with your order, contact our friendly customer support team at support@glowicare.com. We're here to help!"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": ["Tell me a joke!", "Tell me something funny!", "Do you know a joke?"],
+      "responses": ["Why did the skincare product go to therapy? It had too many issues!", "Why did the moisturizer break up with the sunscreen? It felt it was getting too shady!", "Here's a skincare joke for you: Why don't scientists trust atoms? Because they make up everything, just like a good skincare routine!"]
+    },
+    {
+      "tag": "ingredients_list",
+      "patterns": ["List ingredients of Radiant Cleansing Foam", "What are the components of Hydrating Silk Moisturizer?", "Ingredients of Age-Defying Serum"],
+      "responses": [
+        "Radiant Cleansing Foam ingredients: Aqua, Cocamidopropyl Betaine, Glycerin, Chamomilla Recutita (Matricaria) Flower Extract, Camellia Sinensis (Green Tea) Leaf Extract, Sodium Lauroyl Sarcosinate.",
+        "Hydrating Silk Moisturizer ingredients: Aqua, Caprylic/Capric Triglyceride, Glycerin, Silk Amino Acids, Tocopheryl Acetate, Cetyl Alcohol, Stearyl Alcohol.",
+        "Age-Defying Serum ingredients: Aqua, Retinol, Palmitoyl Tripeptide-1, Palmitoyl Tetrapeptide-7, Butylene Glycol, Glycerin, Carbomer."
+      ]
+    },
+    {
+      "tag": "cruelty_free",
+      "patterns": ["Are your products cruelty-free?", "Do you test on animals?", "Tell me about your animal testing policy"],
+      "responses": [
+        "Yes, our products are cruelty-free. We do not test on animals and are committed to providing ethical and animal-friendly skincare.",
+        "We are proud to be a cruelty-free brand. Rest assured, our products are never tested on animals.",
+        "At GlowiCare, we are against animal testing. Our products are cruelty-free, and we actively promote cruelty-free practices within the beauty industry."
+      ]
+    },
+    {
+      "tag": "vegan",
+      "patterns": ["Are your products vegan?", "Tell me about vegan options", "Do you use animal-derived ingredients?"],
+      "responses": [
+        "Yes, many of our products are vegan. We offer a range of vegan options to cater to different preferences and lifestyles.",
+        "Explore our vegan-friendly skincare options. We prioritize using plant-based ingredients to create effective and ethical products.",
+        "We strive to include vegan options in our product line. While not all products are vegan, we clearly label those that meet vegan criteria."
+      ]
+    },
+    {
+      "tag": "subscription",
+      "patterns": ["Do you offer subscription services?", "Tell me about product subscriptions", "How can I subscribe to your products?"],
+      "responses": [
+        "Yes, we offer convenient subscription services. Subscribe to your favorite products and enjoy automatic deliveries at a frequency that suits you.",
+        "Discover the benefits of our subscription service. Receive your favorite skincare products regularly without the hassle of reordering.",
+        "Subscribe and save! Join our subscription program to enjoy discounts, exclusive offers, and hassle-free deliveries of your must-have skincare products."
+      ]
+    },
+    {
+      "tag": "dermatologist",
+      "patterns": ["Do you have dermatologist-recommended products?", "Tell me about expert recommendations", "Are your products endorsed by dermatologists?"],
+      "responses": [
+        "Yes, our products are formulated with input from skincare experts and dermatologists. We prioritize creating effective and safe skincare solutions.",
+        "Our formulations are backed by dermatologist recommendations. Trust in the expertise behind our products for radiant and healthy skin.",
+        "We collaborate with dermatologists to ensure our products meet high standards of efficacy and safety. Experience the confidence of dermatologist-endorsed skincare."
+      ]
+    },
+    {
+      "tag": "gender",
+      "patterns": ["Are your products suitable for all genders?", "Tell me about gender-neutral skincare", "Do you have products for men?"],
+      "responses": [
+        "Yes, our products are suitable for all genders. We believe in inclusive skincare that caters to diverse skin needs.",
+        "Embrace gender-neutral skincare with our products. We prioritize creating formulations that benefit everyone, regardless of gender.",
+        "While our products are suitable for all genders, we also offer specific formulations tailored to the unique needs of men's skin. Explore our Men's Collection for targeted solutions."
+      ]
+    },
+    {
+      "tag": "social_media",
+      "patterns": ["Are you active on social media?", "Tell me about your social media presence", "Where can I follow you online?"],
+      "responses": [
+        "Yes, we are active on social media! Follow us on Instagram, Facebook, and Twitter for the latest updates, skincare tips, and exclusive offers.",
+        "Stay connected with us on social media. Join our vibrant community for skincare discussions, product launches, and more.",
+        "For real-time updates and skincare inspiration, follow us on Instagram, Facebook, and Twitter. Join our online community and be part of the GlowiCare family."
+      ]
+    },
+    {
+      "tag": "age_group",
+      "patterns": ["Are your products suitable for all ages?", "Tell me about age-appropriate skincare", "Do you have products for mature skin?"],
+      "responses": [
+        "Yes, our products are suitable for all ages. We offer a range of skincare solutions tailored to different skin concerns and age groups.",
+        "Discover age-appropriate skincare with our diverse product range. From youth-preserving to mature skin solutions, we have you covered.",
+        "Our skincare products cater to various age groups. Explore our Youthful Radiance Collection for anti-aging benefits and targeted solutions for mature skin."
+      ]
+    },
+    {
+      "tag": "gifts",
+      "patterns": ["Do you offer skincare gift sets?", "Tell me about skincare gift options", "Can I purchase a gift card?"],
+      "responses": [
+        "Yes, we have delightful skincare gift sets perfect for any occasion. Treat your loved ones to the gift of radiant skin.",
+        "Explore our curated skincare gift options for a thoughtful and pampering present. Surprise someone special with the gift of self-care.",
+        "Not sure which product to choose? Opt for a GlowiCare gift card and let them pick their perfect skincare treat. It's the ideal gift for any skincare enthusiast."
+      ]
+    },
+    {
+      "tag": "acne",
+      "patterns": ["Recommendations for acne-prone skin", "How to treat acne", "Tell me about acne products"],
+      "responses": [
+        "For acne-prone skin, try our Acne Clearing Cleanser with salicylic acid and our Blemish Control Serum for targeted treatment. Follow with our oil-free moisturizer for a clear complexion.",
+        "Combat acne with our Acne Control Kit, featuring a cleanser, toner, and spot treatment. Formulated with powerful ingredients to soothe and prevent breakouts.",
+        "Our Acne Defense Collection is designed for acne-prone skin. Incorporate our Clearing Mask and Clarifying Toner for effective acne management."
+      ]
+    },
+    {
+      "tag": "sunscreen",
+      "patterns": ["Do you have a sunscreen product?", "Tell me about sun protection", "Recommendations for SPF"],
+      "responses": [
+        "Yes, we offer a Broad-Spectrum Sunscreen with SPF 30. Protect your skin from harmful UV rays while enjoying the benefits of skincare.",
+        "Sun protection is crucial! Explore our SunGuard SPF 50 for effective sun defense. Lightweight and suitable for daily use.",
+        "Safeguard your skin with our SunShield SPF 50. The perfect addition to your skincare routine for comprehensive sun protection."
+      ]
+    },
+    {
+      "tag": "haircare",
+      "patterns": ["Do you have haircare products?", "Tell me about your haircare line", "Recommendations for healthy hair"],
+      "responses": [
+        "While we primarily focus on skincare, we also offer a Hair Nourishing Serum enriched with botanical extracts for healthy and lustrous hair.",
+        "Our Hair Renewal Collection includes a revitalizing shampoo and conditioner. Experience the synergy of skincare-inspired ingredients for your hair.",
+        "Elevate your haircare routine with our Hair Revitalizing Mist. Infused with nourishing ingredients for shiny and manageable hair."
+      ]
+    },
+    {
+      "tag": "vegan_certified",
+      "patterns": ["Are your products officially vegan certified?", "Tell me about vegan certifications", "Is your brand certified as vegan?"],
+      "responses": [
+        "Yes, our products are officially certified as vegan by [Certification Body]. We are proud to meet the stringent criteria for vegan certification.",
+        "We hold the official vegan certification from [Certification Body], ensuring that our products are free from animal-derived ingredients and cruelty-free.",
+        "Rest assured, our brand is certified as vegan by [Certification Body], reflecting our commitment to ethical and plant-based skincare."
+      ]
+    },
+    {
+      "tag": "gluten_free",
+      "patterns": ["Are your products gluten-free?", "Tell me about gluten-free skincare", "Do you use gluten in your formulations?"],
+      "responses": [
+        "Yes, our products are gluten-free. We understand the importance of allergen-free skincare and strive to create products suitable for various sensitivities.",
+        "Our formulations are carefully crafted to be gluten-free. Experience worry-free skincare with our gluten-free product range.",
+        "Rest assured, our skincare products are free from gluten. We prioritize creating inclusive formulations suitable for all skin types."
+      ]
+    },
+    {
+      "tag": "charitable_initiatives",
+      "patterns": ["Do you support any charitable initiatives?", "Tell me about your charity work", "Are you involved in philanthropy?"],
+      "responses": [
+        "Yes, we are proud supporters of [Charity Organization]. A percentage of our proceeds goes towards supporting their impactful initiatives.",
+        "We believe in giving back. A portion of every purchase goes towards supporting [Charity Organization] and their noble causes.",
+        "Our brand is actively involved in philanthropy. Your support contributes to our charitable initiatives, making a positive impact on the community."
+      ]
+    },
+    {
+      "tag": "product_reviews",
+      "patterns": ["Where can I find product reviews?", "Tell me about customer testimonials", "Are there reviews for [Product Name]?"],
+      "responses": [
+        "Explore customer testimonials and reviews on our official website. Hear firsthand experiences from our satisfied customers.",
+        "Check out the 'Reviews' section on our website for honest opinions and testimonials from individuals who have tried our products.",
+        "Find product reviews and testimonials on our website. Learn more about the experiences of our community members with our skincare products."
+      ]
+    },
+    {
+      "tag": "dermatologist_advice",
+      "patterns": ["Can I get skincare advice from a dermatologist?", "Tell me about dermatologist consultations", "Do you offer skincare consultations?"],
+      "responses": [
+        "While we don't offer direct dermatologist consultations, we recommend consulting with a healthcare professional for personalized skincare advice.",
+        "For personalized dermatologist advice, we suggest scheduling a consultation with a certified dermatologist to address your specific skincare concerns.",
+        "While we provide general skincare information, for personalized advice, consult with a dermatologist who can assess your unique skin needs."
+      ]
+    },
+    {
+      "tag": "covid_19_safety",
+      "patterns": ["What safety measures are you taking during COVID-19?", "Tell me about COVID-19 precautions", "How are you ensuring safety during the pandemic?"],
+      "responses": [
+        "We prioritize the safety of our customers and staff. Our facilities follow strict COVID-19 protocols, including enhanced sanitation and safety measures.",
+        "Rest assured, we have implemented rigorous safety measures to ensure the well-being of our customers and employees during the ongoing pandemic.",
+        "Your safety is our top priority. We adhere to all recommended COVID-19 safety guidelines to create a secure shopping experience for our customers."
+      ]
+    },
+    {
+      "tag": "product_return_policy",
+      "patterns": ["What is your product return policy?", "Tell me about returns and refunds", "Can I return a product?"],
+      "responses": [
+        "Our return policy allows for returns within 30 days of purchase. Visit our 'Returns' page on the website for detailed information on the process.",
+        "We understand that sometimes products may not meet expectations. Check our return policy on the website for details on returning and refunding products.",
+        "If you're not satisfied with a product, you can initiate a return within 30 days of purchase. Visit our 'Returns' page for step-by-step instructions."
+      ]
+    },
+    {
+      "tag": "product_availability_local_stores",
+      "patterns": ["Where can I find your products in local stores?", "Tell me about local retailers", "Are your products available in physical stores?"],
+      "responses": [
+        "Our products are available in select beauty and skincare stores nationwide. Use our store locator on the website to find a store near you.",
+        "Discover our products at leading beauty retailers. Use our store locator to find the nearest physical store carrying our skincare range.",
+        "While we primarily sell online, you can find our products in exclusive beauty boutiques. Locate a nearby store using our store locator tool on the website."
+      ]
+    },
+    {
+      "tag": "customer_rewards_program",
+      "patterns": ["Do you have a customer rewards program?", "Tell me about loyalty points", "How can I earn rewards with my purchases?"],
+      "responses": [
+        "Yes, we offer a customer rewards program! Earn points with every purchase and redeem them for exclusive discounts and special offers.",
+        "Join our loyalty program and accumulate points with every purchase. Enjoy exciting rewards and discounts as a token of our appreciation.",
+        "Become a part of our rewards program to enjoy exclusive benefits. Earn points for every purchase and redeem them for discounts on your favorite skincare products."
+      ]
+    },
+    {
+      "tag": "product_storage",
+      "patterns": ["How should I store your skincare products?", "Tell me about product storage recommendations", "Do your products require special storage?"],
+      "responses": [
+        "Store our skincare products in a cool, dry place away from direct sunlight. Follow the specific storage instructions on each product for optimal effectiveness.",
+        "For best results, store our products in a cool and dry environment. Check individual product labels for any specific storage instructions.",
+        "To maintain product efficacy, store our skincare items in a cool place, avoiding exposure to extreme temperatures. Refer to product labels for additional storage recommendations."
+      ]
+    },
+    {
+      "tag": "custom_gift_baskets",
+      "patterns": ["Can I create a custom skincare gift basket?", "Tell me about personalized gift options", "Do you offer customizable gift sets?"],
+      "responses": [
+        "Absolutely! Create a personalized skincare gift basket by selecting your favorite products. Contact our customer support to assist you with customization.",
+        "Experience the joy of gifting with our customizable skincare sets. Choose your preferred products and create a bespoke gift basket for your loved ones.",
+        "Surprise someone special with a custom skincare gift basket. Select the products you love, and we'll create a beautifully curated gift set for you."
+      ]
+    },
+    {
+      "tag": "product_safety",
+      "patterns": ["Are your products safe for all skin types?", "Tell me about product safety", "Do you conduct safety testing on your products?"],
+      "responses": [
+        "Yes, our products undergo rigorous safety testing to ensure they are suitable for all skin types. We prioritize the safety and well-being of our customers.",
+        "Rest assured, our products are extensively tested for safety on various skin types. We adhere to strict quality standards to provide safe and effective skincare.",
+        "Your safety is our priority. Our products undergo thorough safety testing to meet industry standards and ensure compatibility with all skin types."
+      ]
+    },
+    {
+      "tag": "hydrating_mask",
+      "patterns": ["Tell me about your Hydrating Mask", "What are the benefits of the Hydrating Mask?", "How often should I use the Hydrating Mask?"],
+      "responses": [
+        "Our Hydrating Mask is a moisture-boosting treatment enriched with hyaluronic acid and botanical extracts. It replenishes dry skin and provides a radiant glow.",
+        "Experience the benefits of our Hydrating Mask, designed to deeply nourish and hydrate the skin. It's perfect for a weekly pampering session.",
+        "The Hydrating Mask is formulated to be used 1-2 times a week. Apply a generous layer, leave on for 15 minutes, and rinse off for a refreshed and revitalized complexion."
+      ]
+    },
+    {
+      "tag": "lip_balm",
+      "patterns": ["Tell me about your Nourishing Lip Balm", "What ingredients are in the Lip Balm?", "How often should I use the Lip Balm?"],
+      "responses": [
+        "Our Nourishing Lip Balm is a hydrating formula with shea butter and vitamin E, providing long-lasting moisture for soft and supple lips.",
+        "Indulge in the nourishment of our Lip Balm, crafted with shea butter, coconut oil, and jojoba oil. It's a must-have for daily lip care.",
+        "For best results, use our Nourishing Lip Balm daily. Apply as needed throughout the day to keep your lips moisturized and protected."
+      ]
+    },
+    {
+      "tag": "product_allergies",
+      "patterns": ["How do I know if a product is suitable for my allergies?", "Tell me about allergen information", "Do your products contain common allergens?"],
+      "responses": [
+        "Check the product labels for detailed allergen information. If you have specific allergies, consult with a healthcare professional before trying new skincare products.",
+        "We provide detailed allergen information on our product labels. If you have allergies, review the ingredients list or consult with a dermatologist before use.",
+        "Your safety is important to us. If you have allergies, carefully read the product labels for allergen information or consult with a healthcare professional."
+      ]
+    },
+    {
+      "tag": "product_expiration",
+      "patterns": ["What is the shelf life of your products?", "Tell me about product expiration dates", "How long are your products good for?"],
+      "responses": [
+        "Our products typically have a shelf life of 12-24 months. Check the expiration date on the product packaging for specific information.",
+        "To ensure product freshness, our items come with a recommended use-by date. Find the expiration date on the product packaging for guidance.",
+        "Product freshness matters to us. Look for the expiration date on the product packaging to know the recommended shelf life and usage period."
+      ]
+    },
+    {
+      "tag": "product_fragrance",
+      "patterns": ["Do your products contain artificial fragrances?", "Tell me about product fragrance", "Are your products lightly scented?"],
+      "responses": [
+        "We use natural and mild fragrances in some products. For fragrance-free options, explore our Unscented Collection for a gentle and non-irritating experience.",
+        "Our products may contain light, natural fragrances. If you prefer fragrance-free options, check out our Unscented Collection for a sensitive skin-friendly experience.",
+        "Experience the subtle scents in some of our products. If you prefer fragrance-free options, explore our Unscented Collection for a fragrance-free skincare routine."
+      ]
+    },
+    {
+      "tag": "product_certifications",
+      "patterns": ["Do your products have any certifications?", "Tell me about product certifications", "Are your products certified by any organizations?"],
+      "responses": [
+        "Yes, our products are certified by [Certification Body], ensuring adherence to quality standards and ethical practices.",
+        "We take pride in our product certifications from [Certification Body]. It reflects our commitment to delivering high-quality and trustworthy skincare.",
+        "Look for our product certifications from [Certification Body] on our packaging. We prioritize certifications that validate our commitment to excellence and integrity."
+      ]
+    }
+  ]
+}

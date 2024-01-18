@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles.css">
+    <title>Chat</title>
+</head>
+
+<body>
+    <h1>Chat with SkinBot</h1>
+
+    <div id="chatbox"></div>
+
+    <div id="inputbox">
+        <label for="userInput">You:</label>
+        <input type="text" id="userInput" onkeydown="sendMessage(event)">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script>
+        function sendMessage(event) {
+        if (event && event.key !== 'Enter') {
+            return;
+        }
+
+        var userInput = document.getElementById("userInput").value;
+        document.getElementById("chatbox").innerHTML += "<p>You: " + userInput + "</p>";
+
+        // Make an AJAX request to the server with the user input
+        fetch('/api/send_message', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ user_input: userInput }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("chatbox").innerHTML += "<p>SkinBot: " + data.bot_response + "</p>";
+                // Add a line break between messages
+                document.getElementById("chatbox").innerHTML += "<br>";
+            });
+
+        // For simplicity, we'll just clear the input field here
+        document.getElementById("userInput").value = "";
+    }
+
+    </script>
+</body>
+
+</html>

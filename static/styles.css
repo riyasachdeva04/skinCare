@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+}
+
+#chatbox,
+#inputbox {
+    display: block;
+    justify-content: center;
+}
